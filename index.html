@@ -4,12 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8dadeab0df.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>STARTER - Toybox Homepage</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <!-- Skip Link -->
+    <a href="#mainContent" class="skip-link">Skip to main content.</a>
+
+    <!-- Announcements Bar -->
+
+    <div class="announcements">
+      <div class="wrapper">
+        <p>
+          Complimentary shipping on overs over $50. Discount applied at checkout
+        </p>
+      </div>
+    </div>
+
+    <!-- Header -->
+
+    <div class="navBar">
+      <div class="wrapper">
+        <!-- Slide Out Menu -->
+        <input type="checkbox" id="openSideMenu" />
+        <label for="openSideMenu">
+          <img src="./assets/menu-button.svg" alt="Menu Button" />
+        </label>
+
+        <!-- Slide Out Nav Content-->
+        <div class="slideOutNav">
+          <button>
+            <img src="./assets/menu-close.svg" alt="Close Menu" />
+          </button>
+
+          <!-- Menu Content-->
+          <nav>
+            <ul class="mainMenu">
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- NavBar -->
+        <!-- Logo -->
+        <a href="#home" class="logo">
+          <h1><img src="./assets/toybox.svg" alt="Home Page" /></h1>
+        </a>
+
+        <!-- Search Cart-->
+        <div class="searchCart">
+          <button class="menuIcon">
+            <img src="./assets/search.svg" alt="Search Icon" />
+          </button>
+          <a href="#" class="bag">
+            <img src="./assets/shop-bag.svg" alt="Cart Icon" />
+          </a>
+          <div class="counter">
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+
+    <!-- Footer -->
     <footer></footer>
   </body>
 </html>
