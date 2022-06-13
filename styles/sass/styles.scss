@@ -1,8 +1,23 @@
 @import './partials/variables';
 @import './partials/setup';
+@import './partials/header';
+
 
 header{
   width:100%;
+}
+
+
+footer{
+  background-color:$primaryText;
+  .wrapper{
+    display:flex;
+    border:2px blue solid;
+    justify-content:space-between;
+    .footerNav{
+      display:flex;
+    }
+  }
 }
 
 .footerExtras{
