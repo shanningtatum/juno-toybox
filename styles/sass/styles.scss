@@ -4,3 +4,15 @@
 header{
   width:100%;
 }
+
+.footerExtras{
+  display:flex;
+  border:2px red solid;
+  align-items:center;
+  justify-content:space-between;
+
+  ul{
+    display:flex;
+    list-style:none;
+  }
+}
