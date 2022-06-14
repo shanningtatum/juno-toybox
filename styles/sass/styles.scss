@@ -10,7 +10,7 @@ header{
 
 
 footer{
-  background-color:$primaryText;
+  background-color:$primary;
   .wrapper{
     display:flex;
     border:2px blue solid;
@@ -29,6 +29,5 @@ footer{
 
   ul{
     display:flex;
-    list-style:none;
   }
 }
