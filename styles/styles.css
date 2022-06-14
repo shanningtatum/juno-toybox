@@ -394,6 +394,7 @@ section {
   border-top: 1px solid rgba(8, 75, 10, 0.08);
   border-bottom: 1px solid rgba(8, 75, 10, 0.08);
   background-color: #fff;
+  z-index: 10;
 }
 .navBar .wrapper {
   display: -webkit-box;
@@ -467,4 +468,47 @@ section {
 
 .menuButton {
   cursor: pointer;
+}
+
+.categories {
+  margin-top: 90px;
+}
+
+.categoryList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoryList .itemOne {
+  background-color: #ffd698;
+}
+.categoryList .itemTwo {
+  background-color: #f4fcff;
+}
+.categoryList .itemThree {
+  background-color: #f8fbf3;
+}
+.categoryList .itemFour {
+  background-color: #fff5f5;
+}
+.categoryList .items {
+  border-radius: 10%;
+  width: calc(45% - 50px);
+  margin: 50px 25px 25px;
+  padding: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.categoryList .items img {
+  border-radius: 10%;
+  margin-bottom: 15px;
+}
+.categoryList .items:hover, .categoryList .items:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
