@@ -1,0 +1,44 @@
+img{
+    max-width:100%;
+    display:block;
+}
+
+.wrapper{
+    max-width:1260px;
+    width:90%;
+    margin:0 auto;
+}
+
+section{
+    margin-bottom:90px;
+}
+
+.button{
+    padding:18px 36px;
+    border:2px $primary solid;
+    font-size:0.8rem;
+    font-weight:bold;
+    text-align:center;
+    transition:0.3s;
+}
+
+.shopButton{
+    color:$primary;
+    background-color:transparent;
+    
+    &:hover, &:focus{
+        background-color:$primary;
+        color:$white;
+    }
+
+}
+
+.aboutButton{
+    color:$white;
+    background-color:$primary;
+
+    &:hover, &:focus{
+        background-color:transparent;
+        color:$primary;
+    }
+}

@@ -1,33 +1,6 @@
-@import './partials/variables';
 @import './partials/setup';
+@import './partials/variables';
 @import './partials/header';
 @import './partials/typography';
+@import './partials/baseStyles';
 
-
-header{
-  width:100%;
-}
-
-
-footer{
-  background-color:$primary;
-  .wrapper{
-    display:flex;
-    border:2px blue solid;
-    justify-content:space-between;
-    .footerNav{
-      display:flex;
-    }
-  }
-}
-
-.footerExtras{
-  display:flex;
-  border:2px red solid;
-  align-items:center;
-  justify-content:space-between;
-
-  ul{
-    display:flex;
-  }
-}

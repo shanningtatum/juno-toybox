@@ -221,16 +221,6 @@ template {
   overflow: hidden;
 }
 
-.navBar .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 2px red solid;
-}
-
 @font-face {
   font-family: "Jakarta Sans";
   src: url("../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff"), url("../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Regular.ttf"), url("../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff2");
@@ -304,42 +294,40 @@ img {
   display: block;
 }
 
-header {
-  width: 100%;
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-footer {
+section {
+  margin-bottom: 90px;
+}
+
+.button {
+  padding: 18px 36px;
+  border: 2px #084b6d solid;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.shopButton {
+  color: #084b6d;
+  background-color: transparent;
+}
+.shopButton:hover, .shopButton:focus {
+  background-color: #084b6d;
+  color: #fff;
+}
+
+.aboutButton {
+  color: #fff;
   background-color: #084b6d;
 }
-footer .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 2px blue solid;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-footer .wrapper .footerNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footerExtras {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 2px red solid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.footerExtras ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aboutButton:hover, .aboutButton:focus {
+  background-color: transparent;
+  color: #084b6d;
 }
