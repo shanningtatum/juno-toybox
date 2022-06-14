@@ -37,7 +37,12 @@
     input[type=checkbox]{
         opacity:0;
         position: absolute;
+
+        &:checked ~ .slideOutNav{
+            left:0;
+        }
     }
+    
 }
 
 .searchCart{
@@ -46,10 +51,7 @@
     .menuIcon, .bag{
         margin-right: 15px;
     }
-    .menuIcon{
-        background-color:transparent;
-        border:none;
-    }
+
     .counter p {
         background-color:$primary;
         color:$white;
@@ -64,5 +66,35 @@
 
 .slideOutNav{
     background-color:$primary;
-    color:$white;
+    position:fixed;
+    top:0;
+    left:-506px;
+    height:100vh;
+    width:100%;
+    max-width:506px;
+    padding:35px 50px;
+    transition: 0.75s;
+
+}
+.mainMenu{
+    a{
+        font-family:$headingFont;
+        font-size:1.6rem;
+        line-height: 2.5rem;
+        color:rgba($color: $white, $alpha: 1);
+        &:hover, &:focus{
+            color:rgba($color: $white, $alpha: 0.5);
+        }
+        transition: 0.75s;
+    }
+}
+.menuClose{
+    display:block;
+    margin-left:auto;
+    border:2px red solid;
+    font-size:1.2rem;
+}
+
+.menuButton{
+    cursor:pointer;
 }
