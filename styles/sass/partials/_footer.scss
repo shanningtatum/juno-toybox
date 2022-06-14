@@ -1,0 +1,43 @@
+footer{
+    background-color:$primary;
+    color:$white;
+    padding:75px;
+    .footerFlexContainer{
+        display:flex;
+        justify-content:space-between;
+    }
+    .footerNav{
+        width:45%;
+
+        h5{
+            letter-spacing:0.1rem;
+        }
+
+        a{
+            font-size:0.8rem;
+            color:rgba($color:$white, $alpha:0.5);
+            transition:0.3s;
+
+            &:hover, &:focus{
+                color:rgba($color:$white, $alpha:1);
+            }
+        }
+        nav{
+            display:flex;
+            justify-content:space-between;
+        }
+    }
+}
+.footerExtras{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.socialIcons ul{
+    
+    display:flex;
+    i{
+        margin: 0 10px;
+    }
+}
