@@ -41,3 +41,23 @@
 
 
 // Let Them Play
+.play{
+    background-image:url(../assets/background-image.jpg);
+    background-position:center;
+    background-size:cover;
+    min-height:90vh;
+
+    .wrapper{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:90vh;
+        .playContent{
+            background-color:$white;
+            width:60%;
+            border:24px solid $secondary;
+            padding:60px;
+            text-align:center;
+        }
+    }
+}
