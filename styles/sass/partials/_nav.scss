@@ -27,6 +27,7 @@
     top:0;
     border-top:1px solid rgba(8, 75, 10, 0.08);
     border-bottom:1px solid rgba(8, 75, 10, 0.08);
+    background-color:$white;
 
     .wrapper{
         display:flex;
@@ -43,13 +44,25 @@
     display:flex;
     align-items:center;
     .menuIcon, .bag{
-
         margin-right: 15px;
+    }
+    .menuIcon{
+        background-color:transparent;
+        border:none;
+    }
+    .counter p {
+        background-color:$primary;
+        color:$white;
+        width:24px;
+        height:24px;
+        text-align:center;
+        border-radius:50%;
     }
 }
 
 // Slide Out Nav
 
 .slideOutNav{
-    display:none;
+    background-color:$primary;
+    color:$white;
 }

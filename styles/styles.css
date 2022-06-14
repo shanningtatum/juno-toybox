@@ -361,6 +361,7 @@ section {
   top: 0;
   border-top: 1px solid rgba(8, 75, 10, 0.08);
   border-bottom: 1px solid rgba(8, 75, 10, 0.08);
+  background-color: #fff;
 }
 .navBar .wrapper {
   display: -webkit-box;
@@ -389,7 +390,20 @@ section {
 .searchCart .menuIcon, .searchCart .bag {
   margin-right: 15px;
 }
+.searchCart .menuIcon {
+  background-color: transparent;
+  border: none;
+}
+.searchCart .counter p {
+  background-color: #084b6d;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 50%;
+}
 
 .slideOutNav {
-  display: none;
+  background-color: #084b6d;
+  color: #fff;
 }
