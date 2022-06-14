@@ -296,7 +296,7 @@ a {
   line-height: 1.2rem;
 }
 
-button {
+button, .menuClose {
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -433,10 +433,9 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.menuClose {
+.menuClose img {
   display: block;
   margin-left: auto;
-  border: 2px red solid;
   font-size: 1.2rem;
 }
 
